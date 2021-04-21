@@ -6,7 +6,6 @@ import cn.itcast.bean .Person;
 
 public interface PersonService {
         
-	//处理冲突
 	public void delete(Integer personId);
 	public Person getPerson(Integer personId);
 	public List<Person> getPersons();
