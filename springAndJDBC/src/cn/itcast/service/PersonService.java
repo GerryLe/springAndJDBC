@@ -12,5 +12,4 @@ public interface PersonService {
 	public List<Person> getPersons();
 	public void save(Person person);
 	public void update(Person person);
-	//处理冲突
 }
